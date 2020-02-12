@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ForthMenu : MonoBehaviour
 {
@@ -28,4 +29,10 @@ public class ForthMenu : MonoBehaviour
         Instantiate(startSound, transform.position, Quaternion.identity);
 
     }
+
+    public void BackBtnClicked()
+    {
+        SceneManager.LoadScene("Main1Scene");
+    }
+
 }

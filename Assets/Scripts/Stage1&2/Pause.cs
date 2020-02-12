@@ -83,14 +83,14 @@ public class Pause : MonoBehaviour
     {
         Instantiate(selectSound, transform.position, Quaternion.identity);
         pauseMenu.SetActive(false);
-        SceneManager.LoadScene("Main1Scene");
+        SceneManager.LoadScene("MasterScene");
         FirstMenu.health = 5;
     }
 
     public void MainBtnClicked()
     {
         Instantiate(selectSound, transform.position, Quaternion.identity);
-        SceneManager.LoadScene("Main1Scene");
+        SceneManager.LoadScene("MasterScene");
         FirstMenu.health = 5;
     }
 }

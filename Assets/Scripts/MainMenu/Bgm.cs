@@ -5,14 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class Bgm : MonoBehaviour
 {
-    void Awake()
+    private void Awake()
     {
         DontDestroyOnLoad(transform.gameObject);
     }
 
+    void Start()
+    {
+        SceneManager.LoadScene("Main1Scene");
+    }
+
     private void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex > 3)
+        if (SceneManager.GetActiveScene().buildIndex > 4)
         {
             Destroy(gameObject);
         }

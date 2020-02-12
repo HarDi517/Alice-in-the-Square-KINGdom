@@ -43,11 +43,11 @@ public class Player : MonoBehaviour
         }
         healthDisplay.text = heart;
 
-        //if (FirstMenu.health <= 0)
-        //{
-        //    gameOver.SetActive(true);
-        //    Destroy(gameObject);
-        //}
+        if (FirstMenu.health <= 0)
+        {
+            gameOver.SetActive(true);
+            Destroy(gameObject);
+        }
 
         if (transform.position.y > fixedY)
         {

@@ -82,4 +82,9 @@ public class SecondMenu : MonoBehaviour
                 break;
         }
     }
+
+    public void BackBtnClicked()
+    {
+        SceneManager.LoadScene("Main1Scene");
+    }
 }
