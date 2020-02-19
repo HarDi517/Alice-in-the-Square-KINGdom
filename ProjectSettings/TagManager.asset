@@ -4,11 +4,17 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Enemy
-  - GameManager
+  - ButtonLeft
+  - ButtonRight
   - Item
+  - Line
+  - OtherItem
+  - Enemy
   - Wall
   - StartLine
+  - GameManager
+  - flexCardBorder
+  - EndLine
   layers:
   - Default
   - TransparentFX
@@ -18,7 +24,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Bg
   - 
   - 
   - 
@@ -46,12 +52,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Object
-    uniqueID: 760776347
+  - name: 1
+    uniqueID: 3300453703
     locked: 0
-  - name: UI
-    uniqueID: 241488243
-    locked: 0
-  - name: Button
-    uniqueID: 4183489929
+  - name: 2
+    uniqueID: 678818989
     locked: 0
