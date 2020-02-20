@@ -6,36 +6,36 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/SiHyun/Scenes/OpeningScene.unity
+    path: Assets/1~4/Scenes/OpeningScene.unity
     guid: ed1c97504c55d994792eb1d7e18c7dae
   - enabled: 1
-    path: Assets/SiHyun/Scenes/MasterScene.unity
+    path: Assets/1~4/Scenes/MasterScene.unity
     guid: 4d93186926b3eef4d87bc8b6ed38a136
   - enabled: 1
-    path: Assets/SiHyun/Scenes/Main1Scene.unity
+    path: Assets/1~4/Scenes/Main1Scene.unity
     guid: 03fa7c5f6736d4c46829ba5b5ffb5522
   - enabled: 1
-    path: Assets/SiHyun/Scenes/CreditScene.unity
+    path: Assets/1~4/Scenes/CreditScene.unity
     guid: 4dc33dab35afb014d91657d5dbe67ab0
   - enabled: 1
-    path: Assets/SiHyun/Scenes/Main2Scene.unity
+    path: Assets/1~4/Scenes/Main2Scene.unity
     guid: 5db580ae72cfc5942a1661bc2e7eb511
   - enabled: 1
-    path: Assets/SiHyun/Scenes/Main3Scene.unity
+    path: Assets/1~4/Scenes/Main3Scene.unity
     guid: 1fb19e993fae6f449baaad9da24ce5a0
   - enabled: 1
-    path: Assets/SiHyun/Scenes/Main4Scene.unity
+    path: Assets/1~4/Scenes/Main4Scene.unity
     guid: 8810d880b5bcfd8448fc98da216020a6
   - enabled: 1
-    path: Assets/SiHyun/Scenes/Stage1Scene.unity
+    path: Assets/1~4/Scenes/Stage1Scene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/SiHyun/Scenes/Stage2Scene.unity
+    path: Assets/1~4/Scenes/Stage2Scene.unity
     guid: ae9d2e3c600968045b6ee55fa8118f11
   - enabled: 1
-    path: Assets/SeoYoung/Scenes/Stage3Scene.unity
+    path: Assets/1~4/Scenes/Stage3Scene.unity
     guid: 5c171579b0d3b194992f623e2fcd4523
   - enabled: 1
-    path: Assets/SeoYoung/Scenes/Stage4Scene.unity
+    path: Assets/1~4/Scenes/Stage4Scene.unity
     guid: 69e9927bbba801e4ab062a2bd568fbb9
   m_configObjects: {}

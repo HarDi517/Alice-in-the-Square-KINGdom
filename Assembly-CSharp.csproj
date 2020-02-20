@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{A923A36F-77E0-888C-F755-E2544EE5E4DD}</ProjectGuid>
+    <ProjectGuid>{4603DBA2-76D5-3F86-FEB4-FC403B4E1DF5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,112 +62,113 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SeoYoung\Scripts\AliceController.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\AliceDown.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\MainCameraController.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\AliceItem\AliceItem1.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\AliceItem\AliceItem2.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\AliceItem\AliceItem3.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\AliceItem\AliceItem4.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\AliceItem\AliceItem5.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\AliceItem\AliceItem6.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\AliceItem\AliceItem7.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\Flamingo1.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\Flamingo2.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\Gosmdochi1.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\GunCardMove.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\ObstItem\BasicItem.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\ObstItem\FlamItem1.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\ObstItem\FlamItem2.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\ObstItem\FlamItem3.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\ObstItem\FlamItem4.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\ObstItem\FlipItem.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\ObstItem\GunItem.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\ObstItem\flashItem1.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\ObstItem\flashItem2.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\ObstItem\teapotItem.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\Map\flashControl.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\StageClear.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\System\AudioPlayer.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\System\BackGroundMove.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\System\MapMove.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\System\MoveObst_3.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\System\MoveObst_4.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\System\ObjectPool_3.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\System\ObjectPool_4.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\System\WallMove.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\UI\MoveBtControl.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\UI\NormalUIController.cs" />
-    <Compile Include="Assets\SeoYoung\Scripts\UI\UIevent.cs" />
-    <Compile Include="Assets\SeoYoung\bgImageMove.cs" />
-    <Compile Include="Assets\SeoYoung\destroyCard.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\MainMenu\Bgm.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\MainMenu\ClearStage.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\MainMenu\Credit.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\MainMenu\FirstMenu.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\MainMenu\ForthMenu.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\MainMenu\Scroll.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\MainMenu\SecondMenu.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\MainMenu\ThirdMenu.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\MainMenu\TypeEffect.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\BgObstacle.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\BtnLeft.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\BtnRight.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\DestroyItem.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\Destroyer.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\DoorOpenLeft.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\DoorOpenRight.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\FastBg.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\GetItem.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\HeartPoint.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\Item.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\MoveBackgrounds.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\Obstacle.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\ObstacleSound.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\Pause.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\Pendulum.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\Player.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\PopLeft.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\PopRight.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\RemoveItem.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\RunningLeft.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\RunningRight.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\Sound.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\SpawnPoint.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\Spawner.cs" />
-    <Compile Include="Assets\SiHyun\Scripts\Stage1&amp;2\ToyObstacle.cs" />
+    <Compile Include="Assets\1~4\Scripts\MainMenu\Bgm.cs" />
+    <Compile Include="Assets\1~4\Scripts\MainMenu\ClearStage.cs" />
+    <Compile Include="Assets\1~4\Scripts\MainMenu\Credit.cs" />
+    <Compile Include="Assets\1~4\Scripts\MainMenu\FirstMenu.cs" />
+    <Compile Include="Assets\1~4\Scripts\MainMenu\Follow.cs" />
+    <Compile Include="Assets\1~4\Scripts\MainMenu\ForthMenu.cs" />
+    <Compile Include="Assets\1~4\Scripts\MainMenu\Scroll.cs" />
+    <Compile Include="Assets\1~4\Scripts\MainMenu\SecondMenu.cs" />
+    <Compile Include="Assets\1~4\Scripts\MainMenu\ThirdMenu.cs" />
+    <Compile Include="Assets\1~4\Scripts\MainMenu\TypeEffect.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\BgObstacle.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\BtnLeft.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\BtnRight.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\DestroyItem.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\Destroyer.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\DoorOpenLeft.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\DoorOpenRight.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\FastBg.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\GetItem.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\HeartPoint.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\Item.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\MoveBackgrounds.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\Obstacle.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\ObstacleSound.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\Pause.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\Pendulum.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\Player.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\PopLeft.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\PopRight.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\RemoveItem.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\RunningLeft.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\RunningRight.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\Sound.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\SpawnPoint.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\Spawner.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage1&amp;2\ToyObstacle.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\AliceController.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\AliceDown.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\MainCameraController.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\AliceItem\AliceItem1.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\AliceItem\AliceItem2.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\AliceItem\AliceItem3.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\AliceItem\AliceItem4.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\AliceItem\AliceItem5.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\AliceItem\AliceItem6.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\AliceItem\AliceItem7.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\Flamingo1.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\Flamingo2.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\Gosmdochi1.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\GunCardMove.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\ObstItem\BasicItem.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\ObstItem\FlamItem1.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\ObstItem\FlamItem2.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\ObstItem\FlamItem3.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\ObstItem\FlamItem4.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\ObstItem\FlipItem.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\ObstItem\GunItem.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\ObstItem\flashItem1.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\ObstItem\flashItem2.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\ObstItem\teapotItem.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\Map\flashControl.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\StageClear.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\System\AudioPlayer.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\System\BackGroundMove.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\System\MapMove.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\System\MoveObst_3.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\System\MoveObst_4.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\System\ObjectPool_3.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\System\ObjectPool_4.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\System\WallMove.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\UI\MoveBtControl.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\UI\NormalUIController.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\UI\UIevent.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\bgImageMove.cs" />
+    <Compile Include="Assets\1~4\Scripts\Stage3&amp;Stage4\destroyCard.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Siriririring/Programming/Unity/haha_Temp/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Siriririring/Programming/Unity/Falling Alice/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Siriririring/Programming/Unity/haha_Temp/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Siriririring/Programming/Unity/Falling Alice/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Siriririring/Programming/Unity/haha_Temp/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Siriririring/Programming/Unity/Falling Alice/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Siriririring/Programming/Unity/haha_Temp/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Siriririring/Programming/Unity/Falling Alice/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Siriririring/Programming/Unity/haha_Temp/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Siriririring/Programming/Unity/Falling Alice/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Siriririring/Programming/Unity/haha_Temp/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Siriririring/Programming/Unity/Falling Alice/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Siriririring/Programming/Unity/haha_Temp/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Siriririring/Programming/Unity/Falling Alice/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Siriririring/Programming/Unity/haha_Temp/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Siriririring/Programming/Unity/Falling Alice/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Siriririring/Programming/Unity/haha_Temp/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Siriririring/Programming/Unity/Falling Alice/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Siriririring/Programming/Unity/haha_Temp/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Siriririring/Programming/Unity/Falling Alice/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Siriririring/Programming/Unity/haha_Temp/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Siriririring/Programming/Unity/Falling Alice/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.0f3/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
