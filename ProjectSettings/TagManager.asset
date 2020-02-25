@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ButtonLeft
+  - ButtonRight
+  - Item
+  - Line
+  - OtherItem
+  - Enemy
+  - Wall
+  - StartLine
+  - GameManager
+  - flexCardBorder
+  - EndLine
+  - Obstacles
+  - Heartline
+  - Deadline
+  - Heartline2
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Bg
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: 1
+    uniqueID: 3300453703
+    locked: 0
+  - name: 2
+    uniqueID: 678818989
+    locked: 0
+  - name: chat
+    uniqueID: 743103015
+    locked: 0
+  - name: subsub
+    uniqueID: 247355063
+    locked: 0
+  - name: subsubsub
+    uniqueID: 2242775869
+    locked: 0
+  - name: UI
+    uniqueID: 200867015
+    locked: 0
